@@ -15,9 +15,9 @@
 <body>
 
     <section>
-        <h1>Homepage</h1>
+        <h1>anasayfa</h1>
         <p>
-            <a href="<?php echo $routeToProduct ?>">Check the first product</a>
+            <a href="<?php echo $routeToProduct ?>"></a>
         </p>
     <section>
 
