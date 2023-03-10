@@ -17,7 +17,7 @@
     <section>
         <h1>anasayfa</h1>
         <p>
-            <a href="<?php echo $routeToProduct ?>"></a>
+            <a href="<?php echo $routeToProduct ?>"><?php print 'Ürünler Sayfası'; ?></a>
         </p>
     <section>
 

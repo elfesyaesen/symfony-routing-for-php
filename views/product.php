@@ -20,7 +20,7 @@
             <li><?php echo $product['price']; ?></li>
             <li><?php echo $product['quantity']; ?></li>
         </ul>
-        <a href="<?php echo $routes->get('homepage')->getPath(); ?>"></a>
+        <a href="<?php echo $routes->get('homepage')->getPath(); ?>"><?php print 'anasayfa'; ?></a>
     <section>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" 

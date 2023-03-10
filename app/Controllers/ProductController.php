@@ -9,6 +9,7 @@ class ProductController
 {
 	public function showAction(int $id, RouteCollection $routes)
 	{
+        $routeToProduct = str_replace('{id}', 1, $routes->get('product')->getPath());
         $product_model = new Product();
         $product = $product_model->getProduct($id);
 
